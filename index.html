@@ -3,10 +3,48 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mi página</title>
+  <title>Tu nombre</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hola, mundo</h1>
-  <p>Mi primera página en GitHub Pages.</p>
+  <header class="cabecera">
+    <h1>Miguel Barciela</h1>
+    <p class="lema">Una frase corta sobre ti o sobre lo que haces.</p>
+    <nav>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Escribe aquí dos o tres frases: quién eres, a qué te dedicas y qué te gusta hacer en tu tiempo libre.</p>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <ul class="proyectos">
+        <li>
+          <h3>Proyecto uno</h3>
+          <p>Qué es y para qué sirve, en una línea.</p>
+        </li>
+        <li>
+          <h3>Proyecto dos</h3>
+          <p>Qué es y para qué sirve, en una línea.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Escríbeme a <a href="mailto:tu@correo.com">tu@correo.com</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho con GitHub Pages.</p>
+  </footer>
 </body>
 </html>
