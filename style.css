@@ -48,6 +48,9 @@ h3 { font-size: 1.1rem; margin: 0 0 .25rem; }
 nav { display: flex; gap: 1.25rem; }
 
 a { color: var(--acento); }
+h3 a { text-decoration: none; }
+h3 a:hover { text-decoration: underline; }
+.volver { display: inline-block; margin-bottom: 1rem; }
 a:focus-visible { outline: 2px solid var(--acento); outline-offset: 3px; }
 
 section {
